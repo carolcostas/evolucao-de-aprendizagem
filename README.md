@@ -15,7 +15,7 @@
 - Tipos Utilitálios
 - Metodo de string
 - Curriculo e Apresentação
-- Metodos de Array
+
 
 ## O que eu já sei sobre os assuntos que serão abordados nesse módulo?
 
