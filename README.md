@@ -34,6 +34,7 @@
 - Aprendi algumas estratégias simples de gerenciamento de tempo, como fazer listas de tarefas e definir prioridades.
 - Aprendi alguns métodos básicos de strings, como concatenar e dividir texto.
 - Aprendi alguns métodos básicos de arrays, como adicionar e remover itens de uma lista.
+- Aprendi que os currículos devem ser feitos da forma mais simples possível em arquivos TXT para serem acessíveis aos robôs de busca. Deve-se priorizar as informações em vez da estética.
 
 ### Funções
 
