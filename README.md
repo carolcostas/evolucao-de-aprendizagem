@@ -45,7 +45,8 @@
 
 - `type` é uma palavra reservada do TypeScript para informar o tipo de uma variável, podendo ser string, number, boolean, array ou objeto.
 - Os tipos literais são tipos de dados que já carregam um valor, e uma vez que esse valor é definido, deve ser declarado exatamente da mesma maneira.
-- Podemos declarar que um dado terá mais de um tipo, não será definido, podendo ser de qualquer tipo ou terá um tipo OU outro.
+- Permite que uma variável tenha mais de um tipo. Utiliza o símbolo | para definir que pode ser um tipo ou outro.
+- Mescla mais de um tipo, geralmente usado com objetos. Utiliza o símbolo &.
 - Tuplas permitem definir um tamanho para um array e qual será o tipo de cada elemento que compõe esse array.
 - Tipos de conjunto permitem mesclar mais de dois tipos, mas só podem ser utilizados com objetos; nunca uma variável poderá armazenar mais de um tipo de valor.
 - `Type Narrowing` é uma técnica utilizada para tornar um tipo utilizado o mais assertivo possível (validações). O objetivo do TypeScript é evitar erros ao desenvolver códigos.
