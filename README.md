@@ -51,4 +51,4 @@
 - Tipos de conjunto permitem mesclar mais de dois tipos, mas só podem ser utilizados com objetos; nunca uma variável poderá armazenar mais de um tipo de valor.
 - `Type Narrowing` é uma técnica utilizada para tornar um tipo utilizado o mais assertivo possível (validações). O objetivo do TypeScript é evitar erros ao desenvolver códigos.
 - `Type Assertion` força o TypeScript a identificar uma propriedade como um determinado tipo de dado. Mas se fizer isso sem certeza, pode ocasionar erros.
-- `Unknown` é usado ao utilizar uma API, indicando um tipo desconhecido. O unknown precisa de uma verificação do tipo antes de realizar operações com ele. Precisamos esperar algum tipo de informação ao utilizar uma API e queremos que essas informações estejam de acordo com o que esperamos.
+- `Unknown` é usado ao utilizar uma API, indicando um tipo desconhecido. O unknown precisa de uma verificação do tipo antes de realizar operações com ele. Precisamos esperar algum tipo de informação ao utilizar uma API e queremos que essas informações estejam de acordo com o que esperamos. 
