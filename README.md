@@ -52,4 +52,18 @@
 - Tipos de conjunto permitem mesclar mais de dois tipos, mas só podem ser utilizados com objetos; nunca uma variável poderá armazenar mais de um tipo de valor.
 - `Type Narrowing` é uma técnica utilizada para tornar um tipo utilizado o mais assertivo possível (validações). O objetivo do TypeScript é evitar erros ao desenvolver códigos.
 - `Type Assertion` força o TypeScript a identificar uma propriedade como um determinado tipo de dado. Mas se fizer isso sem certeza, pode ocasionar erros.
-- `Unknown` é usado ao utilizar uma API, indicando um tipo desconhecido. O unknown precisa de uma verificação do tipo antes de realizar operações com ele. Precisamos esperar algum tipo de informação ao utilizar uma API e queremos que essas informações estejam de acordo com o que esperamos. 
+- `Unknown` é usado ao utilizar uma API, indicando um tipo desconhecido. O unknown precisa de uma verificação do tipo antes de realizar operações com ele. Precisamos esperar algum tipo de informação ao utilizar uma API e queremos que essas informações estejam de acordo com o que esperamos.
+
+
+#### Exemplos de Tipos Utilitários:
+
+- `Partial`: transforma todas as propriedades de um tipo em parciais, tornando-as opcionais.
+- `Required`: transforma todas as propriedades de um tipo em obrigatórias.
+- `Readonly`: transforma o código manipulado, possibilitando apenas a leitura e não permitindo a alteração de uma propriedade já cadastrada (só é possível acessar a informação).
+- `Pick`: cria novos tipos personalizados, utilizando apenas as propriedades necessárias. Exemplo: `type novoTipo = Pick<tipoManipulado, 'propriedade1' | 'propriedade2'>`.
+- `Omit`: ao contrário do Pick, o Omit cria um novo modelo e remove as propriedades que não serão utilizadas. A sintaxe é a mesma.
+- `Record`: cria um tipo de um objeto onde as propriedades têm o mesmo tipo.
+- `Exclude`: exclui um ou mais tipos específicos de uma união de tipos, gerando um novo tipo contendo apenas os tipos restantes.
+- `Extract`: extrai um ou mais tipos específicos de uma união de tipos, criando um novo tipo contendo apenas os tipos extraídos.
+
+O `Exclude` é mais voltado para a manipulação de tipos em uma união de tipos, enquanto o `Omit` é mais útil para a manipulação de propriedades em objetos.
