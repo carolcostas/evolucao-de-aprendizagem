@@ -55,7 +55,7 @@
 - `Unknown` é usado ao utilizar uma API, indicando um tipo desconhecido. O unknown precisa de uma verificação do tipo antes de realizar operações com ele. Precisamos esperar algum tipo de informação ao utilizar uma API e queremos que essas informações estejam de acordo com o que esperamos.
 
 
-#### Exemplos de Tipos Utilitários:
+#### Tipos Utilitários:
 
 - `Partial`: transforma todas as propriedades de um tipo em parciais, tornando-as opcionais.
 - `Required`: transforma todas as propriedades de um tipo em obrigatórias.
