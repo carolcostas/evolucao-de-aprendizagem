@@ -20,6 +20,7 @@
 - LinkedIn é uma plataforma onde as pessoas podem criar perfis profissionais e se conectar com outras na área. É uma grande oportunidade para fazer networking, aprender o que outros profissionais têm a ensinar, aprender sobre ética e ficar por dentro de novos eventos e oportunidades.
 - Gestão de tempo envolve organizar suas tarefas de forma eficaz para fazer o melhor uso do tempo.
 - Métodos de strings são maneiras de manipular texto em programação.
+- Métodos de array são maneiras de manipular array de uma maneira mais fácil e prática.
 
 ## O que quero aprender sobre os assuntos que serão abordados nesse módulo?
 
@@ -32,8 +33,8 @@
 ## Minha evolução: o que aprendi sobre os assuntos que foram abordados nesse módulo?
 
 - Aprendi algumas estratégias simples de gerenciamento de tempo, como fazer listas de tarefas e definir prioridades.
-- Aprendi alguns métodos básicos de strings, como concatenar e dividir texto.
-- Aprendi alguns métodos básicos de arrays, como adicionar e remover itens de uma lista.
+- Aprendi alguns métodos básicos de strings, como concatenar e dividir texto, deixá-lo em letra maiuscula, miniscula ou com a primeira letra Maiuscula e o restante minusculo.
+- Aprendi alguns métodos básicos de arrays, como adicionar e remover itens de uma lista, somar, verificar se existe um valor dentro do array.
 - Aprendi que os currículos devem ser feitos da forma mais simples possível em arquivos TXT para serem acessíveis aos robôs de busca. Deve-se priorizar as informações em vez da estética.
 
 ### Funções
